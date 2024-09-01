@@ -1,6 +1,6 @@
 # Deadlock Optimization Guide
 
-This guide is designed to enhance your gameplay experience in **Deadlock** through detailed configurations and optimizations for video settings, Windows settings, and NVIDIA settings. The goal is to reduce micro stutters and FPS lags, ensuring a smooth and responsive gaming experience.
+This repository contains a collection of configuration files and settings designed to optimize the performance of DeadLock, ensuring a smoother and more responsive gaming experience. The configurations focus on maximizing FPS, reducing input lag, and minimizing visual distractions, making it ideal for competitive gameplay.
 
 ## Table of Contents
 - [Deadlock Guide](#deadlock-optimization-guide)
@@ -80,13 +80,29 @@ To activate Ultimate Performance Mode, which is not visible by default in Window
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 ```
 
-After running the command, follow these steps to activate the Ultimate Performance Mode:
+Key Features
 
-    Open Control Panel.
-    Navigate to Hardware and Sound > Power Options.
-    Under Choose or customize a power plan, select Ultimate Performance.
+    Low-Latency Settings: Configurations like r_low_latency 2 and engine_low_latency_sleep_after_client_tick "true" help reduce input lag, giving you a competitive edge.
+    Maximized FPS: The settings are designed to uncapped FPS (fps_max "0") while reducing unnecessary graphical load, such as disabling V-Sync, anti-aliasing, and complex particle effects.
+    Optimized Visuals for Performance: Textures, shadows, and post-processing effects are minimized or disabled to ensure the game runs smoothly on a wide range of hardware.
+    DirectX 11 Support: Option to run the game with DirectX 11 (mat_dxlevel 110) for enhanced graphical features on modern hardware.
+    Customizable Sensitivity and Controls: Easily adjustable sensitivity and custom key bindings to suit your gameplay style.
 
-Improve Internet performance with the right MTU size
-Calculating the Optimal MTU Size
+Included Files
 
-To determine the optimal MTU size without packet loss, use the ping command. Start with a high MTU size and adjust as necessary:
+    video.cfg: Optimized video settings file focusing on high FPS and low latency.
+    autoexec.cfg: Autoexec script for additional performance tweaks and custom commands.
+
+How to Use
+
+    Download the Config Files: Clone this repository or download the specific configuration files you need.
+    Place in Game Directory: Copy the configuration files into your DeadLock game directory (usually found in C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg).
+    Modify as Needed: Feel free to tweak the settings based on your hardware capabilities and personal preferences.
+    Launch the Game: Start DeadLock and enjoy improved performance and responsiveness.
+
+Contributions
+
+Contributions are welcome! If you have additional tweaks, optimizations, or suggestions, feel free to fork this repository and submit a pull request.
+Disclaimer
+
+These settings are heavily optimized for performance and may significantly reduce visual quality. Adjust settings based on your preferences and hardware capabilities.
