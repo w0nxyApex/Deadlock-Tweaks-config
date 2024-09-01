@@ -25,10 +25,10 @@ To optimize your **Deadlock** gameplay, add the following commands to your launc
 | `-preload`       | Preloads game assets |
 | `-forcenovsync`  | Disables vertical sync |
 | `-m_rawinput 1`  | Ensures raw input is used for mouse movements |
-| `-console` | 
-| `-noassert`| 
-|` +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256 `|
-| ` -convars_visible_by_default `|
+| `-console` | Opens the developer console |
+| `-noassert`| Disables assertion checks |
+|` +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256 `| Optimizes UI performance  |
+| ` -convars_visible_by_default `| Makes certain console variables visible by default |
 
 
 
@@ -56,36 +56,40 @@ The `autoexec.cfg` file pre-loads specific commands to enhance performance and i
 - Default startup settings.
 - Graphical adjustments.
 
-Place this file in your Steam or Origin storage location in the cfg folder. For Windows
-` (C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg) `. 
-There is already a video.txt file you just have to change the content. Or copy mine but
+> ### Place this file in your Steam or Origin storage location in the cfg folder. For Windows 
+> ` (C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg) `. 
+> There is already a video.txt file you just have to change the content. Or copy mine but
 
-⚠️ **!! make sure you don't leave**
-**"VendorID" ""**
-**"DeviceID" ""**
-**empty. There is a video.txt with your IDs in there, take them over!!!!**
+> ⚠️ **!! make sure you don't leave**
+> **"VendorID" ""**
+> **"DeviceID" ""**
+> **empty. There is a video.txt with your IDs in there, take them over!!!!**
 
 
-Key Features
-    `Low-Latency Settings: Configurations like r_low_latency 2 and engine_low_latency_sleep_after_client_tick "true" help reduce input lag, giving you a competitive edge.
-    Maximized FPS: The settings are designed to uncapped FPS (fps_max "0") while reducing unnecessary graphical load, such as disabling V-Sync, anti-aliasing, and complex particle effects.
-    Optimized Visuals for Performance: Textures, shadows, and post-processing effects are minimized or disabled to ensure the game runs smoothly on a wide range of hardware.
-    DirectX 11 Support: Option to run the game with DirectX 11 (mat_dxlevel 110) for enhanced graphical features on modern hardware.
-    Customizable Sensitivity and Controls: Easily adjustable sensitivity and custom key bindings to suit your gameplay style.`
+## Key Features
 
-Included Files
-   ` video.cfg: Optimized video settings file focusing on high FPS and low latency.
-    autoexec.cfg: Autoexec script for additional performance tweaks and custom commands.`
+- **Low-Latency Settings**: Configurations like `r_low_latency 2` and `engine_low_latency_sleep_after_client_tick "true"` help reduce input lag, giving you a competitive edge.
+- **Maximized FPS**: The settings are designed to uncap FPS (`fps_max "0"`) while reducing unnecessary graphical load, such as disabling V-Sync, anti-aliasing, and complex particle effects.
+- **Optimized Visuals for Performance**: Textures, shadows, and post-processing effects are minimized or disabled to ensure the game runs smoothly on a wide range of hardware.
+- **DirectX 11 Support**: Option to run the game with DirectX 11 (`mat_dxlevel 110`) for enhanced graphical features on modern hardware.
+- **Customizable Sensitivity and Controls**: Easily adjustable sensitivity and custom key bindings to suit your gameplay style.
 
-How to Use
-   ` Download the Config Files: Clone this repository or download the specific configuration files you need.
-    Place in Game Directory: Copy the configuration files into your DeadLock game directory (usually found in C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg).
-    Modify as Needed: Feel free to tweak the settings based on your hardware capabilities and personal preferences.
-    Launch the Game: Start DeadLock and enjoy improved performance and responsiveness. `
+## Included Files
 
-Contributions
+- `video.cfg`: Optimized video settings file focusing on high FPS and low latency.
+- `autoexec.cfg`: Autoexec script for additional performance tweaks and custom commands.
+
+## How to Use
+
+1. **Download the Config Files**: Clone this repository or download the specific configuration files you need.
+2. **Place in Game Directory**: Copy the configuration files into your Deadlock game directory (usually found in `C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg`).
+3. **Modify as Needed**: Feel free to tweak the settings based on your hardware capabilities and personal preferences.
+4. **Launch the Game**: Start Deadlock and enjoy improved performance and responsiveness.
+
+## Contributions
 
 Contributions are welcome! If you have additional tweaks, optimizations, or suggestions, feel free to fork this repository and submit a pull request.
-Disclaimer
+
+## Disclaimer
 
 These settings are heavily optimized for performance and may significantly reduce visual quality. Adjust settings based on your preferences and hardware capabilities.
