@@ -25,29 +25,26 @@ To optimize your **Deadlock** gameplay, add the following commands to your launc
 
 | Command          | Description |
 |------------------|-------------|
-| `+exec`          | Executes a cfg file on startup |
+| `+exec autoexec.cfg`          | Executes a cfg file on startup |
 | `-dev`           | Skips intro on startup, may cause HUD flicker issues on NVIDIA cards |
 | `-fullscreen`    | Forces the game to launch in fullscreen mode |
 | `-high`          | Prioritizes the game in system processes |
 | `-preload`       | Preloads game assets |
 | `-forcenovsync`  | Disables vertical sync |
 | `-m_rawinput 1`  | Ensures raw input is used for mouse movements |
+| `-console` | 
+| `-noassert`| 
+|` +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256 `|
+| ` -convars_visible_by_default `|
 
-Example of full command line: `-high -preload -forcenovsync -dev -fullscreen +exec autoexec.cfg -m_rawinput 1`
+
+
+
+Example of full command line: `-m_rawinput 1 +exec autoexec.cfg -console -noassert +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256 -convars_visible_by_default -fps_max 0 -high -dev -preload -fullscreen `
 
 ### Video Configuration
 
 This section explains the purpose and effects of various settings in the `videoconfig.txt` file for **Deadlock** to improve game performance and visual quality:
-
-Adjust the following in your `videoconfig.txt` for optimal frame timing:
-- **Original Frame Time**:
-  - Minimum: `"15000"`
-  - Maximum: `"15000"`
-  - Optimal for 190 FPS: `"setting.dvs_gpuframetime_min" "5150"`
-  - Optimal for 240 FPS: `"setting.dvs_gpuframetime_min" "4166"`
-  - Optimal for 299 FPS: `"setting.dvs_gpuframetime_min" "3340"`
-
-Change the values ​​here by opening your video config file with a text editor.
 
 Other recommended adjustments:
 - **Particle Levels**: Reduced for minimal distraction and improved performance.
@@ -62,8 +59,6 @@ You can download the example [Videoconfig.txt](https://github.com/yourusername/D
 
 The `autoexec.cfg` file pre-loads specific commands to enhance performance and in-game behavior for **Deadlock**:
 
-- Disables telemetry and prevents communication logging.
-- Network optimizations.
 - Default startup settings.
 - Graphical adjustments.
 
