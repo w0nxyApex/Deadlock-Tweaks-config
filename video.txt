@@ -1,8 +1,8 @@
 "video.cfg"
 {
 	"Version"		"20"
-	"VendorID"		"4318"
-	"DeviceID"		"9988"
+	"VendorID"		""
+	"DeviceID"		""
 	"setting.cpu_level"		"2"  // Medium CPU load
 	"setting.mem_level"		"2"  // Medium memory usage
 	"setting.gpu_mem_level"		"1"  // Lower GPU memory usage for better performance
