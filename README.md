@@ -67,24 +67,21 @@ There is already a video.txt file you just have to change the content. Or copy m
 
 
 Key Features
-
-    Low-Latency Settings: Configurations like r_low_latency 2 and engine_low_latency_sleep_after_client_tick "true" help reduce input lag, giving you a competitive edge.
+    `Low-Latency Settings: Configurations like r_low_latency 2 and engine_low_latency_sleep_after_client_tick "true" help reduce input lag, giving you a competitive edge.
     Maximized FPS: The settings are designed to uncapped FPS (fps_max "0") while reducing unnecessary graphical load, such as disabling V-Sync, anti-aliasing, and complex particle effects.
     Optimized Visuals for Performance: Textures, shadows, and post-processing effects are minimized or disabled to ensure the game runs smoothly on a wide range of hardware.
     DirectX 11 Support: Option to run the game with DirectX 11 (mat_dxlevel 110) for enhanced graphical features on modern hardware.
-    Customizable Sensitivity and Controls: Easily adjustable sensitivity and custom key bindings to suit your gameplay style.
+    Customizable Sensitivity and Controls: Easily adjustable sensitivity and custom key bindings to suit your gameplay style.`
 
 Included Files
-
-    video.cfg: Optimized video settings file focusing on high FPS and low latency.
-    autoexec.cfg: Autoexec script for additional performance tweaks and custom commands.
+   ` video.cfg: Optimized video settings file focusing on high FPS and low latency.
+    autoexec.cfg: Autoexec script for additional performance tweaks and custom commands.`
 
 How to Use
-
-    Download the Config Files: Clone this repository or download the specific configuration files you need.
+   ` Download the Config Files: Clone this repository or download the specific configuration files you need.
     Place in Game Directory: Copy the configuration files into your DeadLock game directory (usually found in C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg).
     Modify as Needed: Feel free to tweak the settings based on your hardware capabilities and personal preferences.
-    Launch the Game: Start DeadLock and enjoy improved performance and responsiveness.
+    Launch the Game: Start DeadLock and enjoy improved performance and responsiveness. `
 
 Contributions
 
