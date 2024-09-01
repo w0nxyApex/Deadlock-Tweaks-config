@@ -7,13 +7,6 @@ This repository contains a collection of configuration files and settings design
   - [Steam Game Launch Options](#steam-game-launch-options)
   - [Video Configuration](#video-configuration)
   - [Autoexec Configuration](#autoexec-configuration)
-// - [Windows Settings](#windows-settings-guide)
-  - [Ultimate Performance](#ultimate-performance-mode-in-windows)
-  - [Improve Internet performance](#improve-internet-performance-with-the-right-mtu-size)
-- [NVIDIA Settings](#nvidia-guide)
-  - [NVIDIA New Driver](#new-nvidia-driver)
-  - [NVIDIA Display](#nvidia-display-settings)
-  - [NVIDIA 3D Settings](#nvidia-3d-settings)
 
 **Note:** While these settings aim to optimize your gaming performance, individual results may vary based on your specific hardware and peripherals.
 
