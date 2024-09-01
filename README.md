@@ -56,10 +56,9 @@ The `autoexec.cfg` file pre-loads specific commands to enhance performance and i
 - Default startup settings.
 - Graphical adjustments.
 
-> ### Place this file in your Steam or Origin storage location in the cfg folder. For Windows 
-> ` (C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg) `. 
+> ### Place this file in your Steam or Origin storage location in the cfg folder. For Windows.
+> ` (C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg) `
 > There is already a video.txt file you just have to change the content. Or copy mine but
-
 > ⚠️ **!! make sure you don't leave**
 > **"VendorID" ""**
 > **"DeviceID" ""**
