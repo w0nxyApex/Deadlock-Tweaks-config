@@ -65,21 +65,6 @@ The `autoexec.cfg` file pre-loads specific commands to enhance performance and i
 
 Place this file in your Steam or Origin storage location in the cfg folder. Download it [here](C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg).
 
-## Windows Settings Guide
-
-### Ultimate Performance Mode in Windows
-
-#### Overview
-The Ultimate Performance Mode in Windows optimizes power settings to enhance system performance. This mode is particularly beneficial for **Deadlock** players who require maximum performance from their systems.
-
-#### Activation Command
-
-To activate Ultimate Performance Mode, which is not visible by default in Windows, use the following command in your command prompt:
-
-```bash
-powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
-```
-
 Key Features
 
     Low-Latency Settings: Configurations like r_low_latency 2 and engine_low_latency_sleep_after_client_tick "true" help reduce input lag, giving you a competitive edge.
