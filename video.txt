@@ -1,8 +1,8 @@
 "video.cfg"
 {
 	"Version"		"20"
-	"VendorID"		""		// Put YOUR VendorID here, from you video.txt file!! example ("VendorID"	"0815")
-	"DeviceID"		""		// Put YOUR DeviceID here, from you video.txt file!!
+	"VendorID"		"4318"		// Put YOUR VendorID here, from you video.txt file!! example ("VendorID"	"0815")
+	"DeviceID"		"7298"		// Put YOUR DeviceID here, from you video.txt file!!
 	"setting.cpu_level"		"0"  // Low CPU load
 	"setting.mem_level"		"0"  // Low memory usage
 	"setting.gpu_mem_level"		"0"  // low GPU memory usage for better performance
