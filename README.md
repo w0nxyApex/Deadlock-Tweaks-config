@@ -37,7 +37,7 @@ Example of full command line: `-m_rawinput 1 +exec autoexec.cfg -console -noasse
 
 ### Video Configuration
 
-This section explains the purpose and effects of various settings in the `videoconfig.txt` file for **Deadlock** to improve game performance and visual quality:
+This section explains the purpose and effects of various settings in the `video.txt` file for **Deadlock** to improve game performance and visual quality:
 
 Other recommended adjustments:
 - **Particle Levels**: Reduced for minimal distraction and improved performance.
