@@ -44,7 +44,7 @@ Other recommended adjustments:
 - **Ragdoll Effects**: Disabled to decrease CPU load.
 - **Shadow and Lighting Effects**: Minimized to enhance FPS.
 
-You can download the example [Videoconfig.txt](https://github.com/w0nxyApex/Deadlock-Tweaks-config/blob/main/video.txt). Make sure to check which FPS you are targeting and adjust frame times accordingly. Also, set the correct resolution for your display.
+You can download the example [Video.txt](https://github.com/w0nxyApex/Deadlock-Tweaks-config/blob/main/video.txt). Make sure to check which FPS you are targeting and adjust frame times accordingly. Also, set the correct resolution for your display.
 
 **Tip:** Set the file to read-only to prevent the game from overwriting your settings.
 
