@@ -2,6 +2,9 @@
 // feel free to add these commands to your autoexec.cfg. But they probably don't exist in deadlock and have no effect
 // Testing maybe not workin in DeadLock
 
+
+
+
 r_lod "-1"                                                              // Set to -1 for the lowest quality.
 r_threaded_particles "1"                                        // Enables multithreading for particles to better distribute the load on the CPU.
 r_threaded_renderables "1"                                           // Enables multithreading for renderable objects.
