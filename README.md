@@ -33,7 +33,7 @@ To optimize your **Deadlock** gameplay, add the following commands to your launc
 
 
 
-Example of full command line: `-m_rawinput 1 +exec autoexec.cfg -console -noassert +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256 -convars_visible_by_default -fps_max 0 -high -dev -preload -fullscreen `
+Example of full command line: `-m_rawinput 1 +exec autoexec.cfg -console -noassert +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256 -convars_visible_by_default -high -dev -preload -fullscreen `
 
 ### Video Configuration
 
