@@ -1,5 +1,5 @@
 // CFG Options from Source 2 Engine
-
+// feel free to add these commands to your autoexec.cfg. But they probably don't exist in deadlock and have no effect
 // Testing maybe not workin in DeadLock
 
 r_lod "-1"                                                              // Set to -1 for the lowest quality.
