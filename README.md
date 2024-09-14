@@ -82,7 +82,7 @@ The `autoexec.cfg` file pre-loads specific commands to enhance performance and i
 ## How to Use
 
 1. **Download the Config Files**: Clone this repository or download the specific configuration files you need.
-2. **Place in Game Directory**: Copy the configuration files into your Deadlock game directory (usually found in `C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg`).
+2. **Place in Game Directory**: Copy the configuration files into your Deadlock game directory (usually found in `C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\cfg`.
 3. **Modify as Needed**: Feel free to tweak the settings based on your hardware capabilities and personal preferences.
 4. **Launch the Game**: Start Deadlock and enjoy improved performance and responsiveness.
 
