@@ -34,9 +34,9 @@ To optimize your **Deadlock** gameplay, add the following commands to your launc
 
 
 
-For use drx11(I would recommend): `-dx11 -m_rawinput 1 +exec autoexec.cfg -high -preload -fullscreen -forcenovsync +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256`
+For use drx11(I would recommend): `-dx11 -m_rawinput 1 +exec autoexec.cfg -high -preload -fullscreen +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256`
 
-For use vulkan(Maybe better for AMD, you can just test it): `-vulkan -m_rawinput 1 +exec autoexec.cfg -high -preload -fullscreen -forcenovsync +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256`
+For use vulkan(Maybe better for AMD, you can just test it): `-vulkan -m_rawinput 1 +exec autoexec.cfg -high -preload -fullscreen +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256`
 
 
 ### Video Configuration
