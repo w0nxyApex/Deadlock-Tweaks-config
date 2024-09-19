@@ -39,7 +39,8 @@ For use drx11(I would recommend): `-dx11 -m_rawinput 1 +exec autoexec.cfg -high 
 For use vulkan(Maybe better for AMD, you can just test it): `-vulkan -m_rawinput 1 +exec autoexec.cfg -high -preload -fullscreen +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256`
 
 
-### Video Configuration
+
+## Video Configuration
 
 This section explains the purpose and effects of various settings in the `video.txt` file for **Deadlock** to improve game performance and visual quality:
 
