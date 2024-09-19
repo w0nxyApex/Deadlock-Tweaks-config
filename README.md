@@ -53,7 +53,7 @@ You can download the example [Video.txt](https://github.com/w0nxyApex/Deadlock-T
 
 **Tip:** Set the file to read-only to prevent the game from overwriting your settings.
 
-### Autoexec Configuration
+## Autoexec Configuration
 
 The `autoexec.cfg` file pre-loads specific commands to enhance performance and in-game behavior for **Deadlock**:
 [autoexec.cfg](https://github.com/w0nxyApex/Deadlock-Tweaks-config/blob/main/autoexec.cfg)
