@@ -22,7 +22,8 @@ To optimize your **Deadlock** gameplay, add the following commands to your launc
 | Command          | Description |
 |------------------|-------------|
 | `+exec autoexec.cfg`          | Executes a cfg file on startup |
-| `-dev`           | Skips intro on startup, may cause HUD flicker issues on NVIDIA cards |
+| `-dx11`           | Using DirectX 11: Start parameters |
+| `-vulkan`           | Using Vulkan: Start parameters |
 | `-fullscreen`    | Forces the game to launch in fullscreen mode |
 | `-high`          | Prioritizes the game in system processes |
 | `-preload`       | Preloads game assets |
