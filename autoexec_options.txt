@@ -5,91 +5,47 @@
 
 
 
-r_lod "-1"                                                              // Set to -1 for the lowest quality.
-r_threaded_particles "1"                                        // Enables multithreading for particles to better distribute the load on the CPU.
-r_threaded_renderables "1"                                           // Enables multithreading for renderable objects.
-r_cheapwater "1"                                                     // Reduces the quality of water surfaces.
+// r_farz -1                            // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_disable_ragdolls "1"              // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// func_break_max_pieces "0"            // Can not change replicated ConVar func_break_max_pieces from console of client, only server operator can change its value. 
+// r_drawtracers 0                      // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// lb_shadow_map_culling false          // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_phys_enabled "0"                  // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_phys_sleep_enable "1"             // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_predict "1"                       // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_ragdoll_lru_debug "0"             // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_extrapolate "0"                   // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// r_shadows "0"                        // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// particles_multiplier "0"             // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// fog_enable "false"                   // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// r_particle_max_draw_distance "1000"  // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
 
-// Network Optimizations:
-cl_interp "0"                                                   // Reduces latency by lowering the interpolation delay of server data.
-cl_interp_ratio "1"
-rate "786432"                                           // Sets the maximum bandwidth usage for smoother gameplay.
-cl_updaterate "128"                                                      // Ensures that data is updated as frequently as possible to reduce latency.
-cl_cmdrate "128"                                                     // Sends commands to the server at 128 ticks per second to match the update rate.
 
-// CPU and Threading Optimization:
-mat_queue_mode "2"                                               // Enables multithreading for the GPU. If you have a multi-core CPU, set this to 2.
-r_queued_decals "1"                                                             // Enables multithreading for rendering decals (e.g., bullet holes), which can improve performance.
-r_queued_post_processing "1"                                    // Enables multithreading for post-processing effects.
-
-r_maxmodeldecal "0"                                          // Reduces the number of decals on objects (e.g., bullet holes) to reduce CPU load.
-r_drawflecks "0"                                                    // Disables rendering of small particles like debris during shooting.
-r_staticprop_lod "-1"                                               // Reduces the detail level of static objects like buildings.
-r_shadowrendertotexture "0"                                 // Disables shadows rendered on textures, improving performance.
-r_motionblur_enabled "0"                                     // Ensures motion blur is disabled, if not already.
-mat_antialias "0"                               // Anti-aliasing is already disabled, good for performance.
-
-r_threaded_client_shadow_manager "1"                                        // Enables multithreading for the shadow manager to reduce CPU load.
-r_threaded_particles "1"                                                     // Enables multithreading for particle effects.
-r_threaded_renderables "1"                                               // Enables multithreading for renderable objects.
-cl_phys_props_enable "0"                                                // Disables physics for objects to reduce CPU load.
-cl_phys_props_max "0"                                                        // Reduces the number of physical objects processed by the CPU.
-r_decals "0"                                                                 // Disables decals entirely (e.g., bullet holes) to save CPU resources.
-cl_ragdoll_physics_enable "0"                                       // Disables ragdoll physics, reducing CPU usage.
-r_dynamic "0"                                                            // Disables dynamic lighting for better performance.
-r_drawtracers_firstperson "0"                                    // Disables bullet tracers in first-person view to save CPU power.
-func_break_max_pieces "0"                                                // Prevents destructible objects from breaking into smaller pieces.
-lod_transitiondist "0"                                               // Reduces the distance at which objects transition to higher detail models.
-r_cheapwaterend "1"                                                 // Ensures water surfaces use the simplest rendering method.
-net_splitrate "1"                                                           // Reduces the frequency of network packet splitting, reducing CPU load in multiplayer.
-mp_decals "0"                                                   // Disables decals in multiplayer (e.g., blood, explosion marks).
-cl_ejectbrass "0"                                       // Disables the ejection of bullet casings to reduce CPU load.
-r_shadows "0"                                                           // Disables all shadows, greatly reducing CPU and GPU load.
-
-// CPU Core and Texture Settings:
-numworkerthreads "6"                                                    // Allocates 4 threads to the game for multi-core processing.
-mat_compressedtextures "1"                                              // Enables compressed textures to reduce memory usage and CPU load.
-
-cl_disable_ragdolls true
-gl_clear_gray true
-particles_multiplier 0
-fog_enable false
-lb_shadow_map_culling false
-mat_vsync 0
+mat_parallaxmap "0"
+r_maxdlights 0
 mat_mipmaptextures 0
-mat_postprocess_enable 0
 ssao_enabled 0
 sssss_enable 0
 particle_cpu_level 0
 cl_ragdoll_maxcount 0
-cl_ragdoll_self_collision 0
 noise_filter_scale 0
-mat_antialias "0"
 nx_static_lobby_mode 2
 cl_gib_allow 0
 cl_gib_attack_dir_scale 0
 r_cleardecals
-r_dynamic 0
-r_decals 0
 
-cl_debugClientEntities 0
 r_cullshadowworldmeshes 0
 r_deferred_decals 0
 shadow_always_update 0
 shadow_maxdynamic 0
-func_break_max_pieces 0
 m_acceleration "0"
 mat_debug_tonemapping_disable 1
-mat_disable_model_ambient 1
-mat_disable_lightmaps 1
-mat_disable_lightmap_ambient 1
-mat_dxlevel 110
+
 mat_fastnobump 1
 mat_fastspecular 0
 mat_fxaa_enable "0"
 mat_hide_sun_in_last_cascade 1
 mat_phong 0
-mat_postprocess_enable 0
 mat_screen_blur_override 1
 mat_screen_blur_enabled 0
 mat_sharpen_amount 1
@@ -105,11 +61,13 @@ cl_showLoadMovies 0
 cl_show_splashes 0
 hud_setting_showTips 0
 
-new_shadow_settings 0
-mat_viewportscale 0.1
-noworkerdll
-numreservedcores "2"
-numworkerthreads "12"
-net_queued_packet_thread "0"
 csm_enabled "0"
 r_createmodeldecals 0
+
+r_maxmodeldecal "0"
+r_drawflecks "0"
+r_staticprop_lod "-1"
+r_shadowrendertotexture "0"
+r_motionblur_enabled "0"
+
+r_cheapwaterend "1"
