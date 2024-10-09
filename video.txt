@@ -59,6 +59,5 @@
 	"setting.r_citadel_fsr2_sharpness"		"1.000000"
 	"setting.r_citadel_shadow_quality"		"0"
 	"setting.monitor_index"		"0"
-
 }
 
