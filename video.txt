@@ -35,7 +35,7 @@
 	"setting.r_citadel_half_res_noisy_effects"		"true"  		// Keep half-res noisy effects for performance
 	"setting.r_render_portals"		"0"
 	"setting.r_arealights"		"false"
-	"setting.r_texture_stream_mip_bias"		"3"  				// lowest texture quality
+	"setting.r_texture_stream_mip_bias"		"2"  				// lowest texture quality
 	"setting.r_dashboard_render_quality"		"0"
 	"setting.r_particle_depth_feathering"		"false"
 	"setting.shaderquality"		"0"  						// Low shader quality
