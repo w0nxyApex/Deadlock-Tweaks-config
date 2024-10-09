@@ -3,10 +3,10 @@
 	"Version"		"20"
 	"VendorID"		""			// Put YOUR VendorID here, from you video.txt file!! example ("VendorID"	"0815")
 	"DeviceID"		""			// Put YOUR DeviceID here, from you video.txt file!!
-	"setting.cpu_level"		"0"  			// Low CPU load
+	"setting.cpu_level"		"1"  			// Low CPU load
 	"setting.mem_level"		"0"  			// Low memory usage
 	"setting.gpu_mem_level"		"0"  			// low GPU memory usage for better performance
-	"setting.gpu_level"		"0"  			// low GPU load
+	"setting.gpu_level"		"2"  			// low GPU load
 	"setting.knowndevice"		"0"
 	"setting.defaultres"		"1920"				// Here set you Monitor Resolution
 	"setting.defaultresheight"		"1080"
@@ -35,17 +35,17 @@
 	"setting.r_citadel_half_res_noisy_effects"		"true"  		// Keep half-res noisy effects for performance
 	"setting.r_render_portals"		"0"
 	"setting.r_arealights"		"false"
-	"setting.r_texture_stream_mip_bias"		"4"  				// lowest texture quality
+	"setting.r_texture_stream_mip_bias"		"3"  				// lowest texture quality
 	"setting.r_dashboard_render_quality"		"0"
 	"setting.r_particle_depth_feathering"		"false"
 	"setting.shaderquality"		"0"  						// Low shader quality
-	"setting.recommendedheight"		"480"  						// Lower resolution for performance, use 480, 720 ore 1080
-	"setting.csm_max_shadow_dist_override"		"1024.000000"  					// Lower shadow distance for performance
+	"setting.recommendedheight"		"720"  						// Lower resolution for performance, use 480, 720 ore 1080
+	"setting.csm_max_shadow_dist_override"		"2048.000000"  					// Lower shadow distance for performance
 	"setting.lb_csm_override_staticgeo_cascades"		"true"
 	"setting.lb_csm_override_staticgeo_cascades_value"		"-1"
-	"setting.volume_fog_width"		"16" 					// Lower volume fog resolution for performance
-	"setting.volume_fog_height"		"16"  					// Lower volume fog resolution for performance
-	"setting.volume_fog_depth"		"16"  					// Lower volume fog resolution for performance
+	"setting.volume_fog_width"		"64" 					// Lower volume fog resolution for performance
+	"setting.volume_fog_height"		"64"  					// Lower volume fog resolution for performance
+	"setting.volume_fog_depth"		"32"  					// Lower volume fog resolution for performance
 	"setting.r_citadel_mboit"		"false"
 	"setting.r_citadel_motion_blur"		"0"  					// Disable motion blur for performance
 	"setting.mat_viewportscale"		"1.000000"
