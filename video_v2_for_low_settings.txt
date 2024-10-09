@@ -6,10 +6,10 @@
 	"VendorID"		""
 	"DeviceID"		""
 	"setting.mat_antialias" "0"       			 	// Disable all forms of antialiasing
-  	"setting.mat_shadowstate" "0"      				// Disable shadow calculations for better performance
-  	"setting.mat_specular" "0"         				// Disable shiny effects to reduce GPU load
-  "setting.cl_phys_props_max" "0"    				// Limit physical props to save on CPU and GPU resources
-  "setting.cl_gib_allow" "0"         				// Disable gib effects to optimize performance
+	"setting.mat_shadowstate" "0"      				// Disable shadow calculations for better performance
+	"setting.mat_specular" "0"         				// Disable shiny effects to reduce GPU load
+	"setting.cl_phys_props_max" "0"    				// Limit physical props to save on CPU and GPU resources
+	"setting.cl_gib_allow" "0"         				// Disable gib effects to optimize performance
 	"setting.cpu_level"		"0"
 	"setting.mem_level"		"0"
 	"setting.gpu_mem_level"		"0"
