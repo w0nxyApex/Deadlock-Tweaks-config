@@ -20,7 +20,8 @@
 // fog_enable "false"                   // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
 // r_particle_max_draw_distance "1000"  // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
 
-
+numworkerthreads "12"                   // Optimize based on CPU core count, If your CPU has fewer cores, consider lowering these numbers to avoid excessive thread management overhead.
+numreservedcores "2"                    // If you have an 8-core/16-thread CPU, this value is appropriate. If your CPU has fewer than 12 threads, reduce this number to match your hardware capabilities.
 mat_parallaxmap "0"
 r_maxdlights 0
 mat_mipmaptextures 0
