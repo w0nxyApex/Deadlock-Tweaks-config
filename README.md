@@ -3,6 +3,7 @@ You can follow on X https://twitter.com/cosmicw0nxy
 
 For anyone who needs a bit more explanation, here’s a video. https://www.youtube.com/watch?v=rNxrJaed8vE
 
+⚠️ At the moment, I don't update it regularly or actively. Maybe in the future again. Settings might not be perfect for everyone, look around for alternatives.⚠️
 This repository contains a collection of configuration files and settings designed to optimize the performance of DeadLock, ensuring a smoother and more responsive gaming experience. The configurations focus on maximizing FPS, reducing input lag, and minimizing visual distractions, making it ideal for competitive gameplay.
 
 ## Table of Contents
