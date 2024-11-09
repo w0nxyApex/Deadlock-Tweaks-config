@@ -1,5 +1,4 @@
 # Deadlock Optimization Guide
-You can follow on X https://twitter.com/cosmicw0nxy
 
 For anyone who needs a bit more explanation, here’s a video. https://www.youtube.com/watch?v=rNxrJaed8vE
 
